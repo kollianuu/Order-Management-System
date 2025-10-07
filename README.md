@@ -19,14 +19,26 @@ This system allows administrators to manage customer orders, track delivery stat
   - Visual progress bar showing order stages: Pending → Confirmed → Shipped → Out for Delivery → Delivered.
   - Cancel order option available before delivery.
 
+    <img width="1217" height="883" alt="image" src="https://github.com/user-attachments/assets/45146dff-8c12-4e5a-a94e-52b4ad23f97b" />
+
+
 - **Delivered Products Page**
   - List of all delivered products with customer details.
+ 
+    <img width="1887" height="495" alt="image" src="https://github.com/user-attachments/assets/8493348c-fd48-49cf-ab39-f473fd4ef4f7" />
+
 
 - **Canceled Products Page**
   - List of all canceled orders with reasons (if needed).
+ 
+    <img width="1906" height="647" alt="image" src="https://github.com/user-attachments/assets/038270a4-2f94-4c1c-a4ae-cbd4567ae332" />
+
 
 - **PDF Export**
   - Generate a PDF of order details from admin panel.
+
+    <img width="1909" height="758" alt="image" src="https://github.com/user-attachments/assets/baf87027-263e-41ec-b0d3-969de14cc0c7" />
+
 
 ---
 
@@ -35,13 +47,7 @@ This system allows administrators to manage customer orders, track delivery stat
 - **Backend:** PHP
 - **Database:** MySQL
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **PDF Generation:** TCPDF / FPDF (if used)
-- **Email Notifications:** PHPMailer (if used)
+- **PDF Generation:** TCPDF 
+- **Email Notifications:** PHPMailer
 
----
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Order-Management-System.git
