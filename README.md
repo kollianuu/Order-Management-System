@@ -93,6 +93,10 @@ $message = "Hello $client_name, your order for $product_name has been shipped.";
 $headers = "From: your-email@example.com";
 mail($to, $subject, $message, $headers);
 
+Example:
+
+<img width="569" height="143" alt="image" src="https://github.com/user-attachments/assets/5cd5dfbf-bc9c-4ea3-9635-b906c28293b0" />
+
 5. Running the Project
 
 Start your local server XAMPP
