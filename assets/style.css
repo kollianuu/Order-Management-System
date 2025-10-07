@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 50px; }
+h2 { color: #333; }
+form { margin-bottom: 20px; }
+input, select, button { padding: 8px; margin: 5px; }
+#orderDetails { border: 1px solid #ddd; padding: 10px; width: 300px; }
