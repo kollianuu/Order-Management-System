@@ -95,7 +95,9 @@ mail($to, $subject, $message, $headers);
 
 5. Running the Project
 
-Start your local server (XAMPP/WAMP).
+Start your local server XAMPP
+
+<img width="662" height="431" alt="image" src="https://github.com/user-attachments/assets/52accac5-d1ff-4e94-ac7b-a349f5cf2544" />
 
 Place the project folder inside htdocs (for XAMPP) or the web root.
 
