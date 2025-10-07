@@ -109,11 +109,12 @@ Open your browser:
 
 Client Interface: http://localhost/order-tracking-system/index.php
 
-<img width="1853" height="963" alt="image" src="https://github.com/user-attachments/assets/930562fa-fca6-4f22-911f-4ddc4249497c" />
+<img width="1051" height="822" alt="image" src="https://github.com/user-attachments/assets/273ffd8b-fb15-4264-91f3-f7547ca958e8" />
 
 Admin Interface: http://localhost/order-tracking-system/admin.php
 
-<img width="1051" height="822" alt="image" src="https://github.com/user-attachments/assets/273ffd8b-fb15-4264-91f3-f7547ca958e8" />
+<img width="1853" height="963" alt="image" src="https://github.com/user-attachments/assets/930562fa-fca6-4f22-911f-4ddc4249497c" />
+
 
 6. Usage
 
