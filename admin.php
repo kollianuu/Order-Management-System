@@ -258,7 +258,10 @@ async function cancelOrder(orderId){
     try{
         const res = await fetch('update_status.php',{
             method:'POST',
-            headers:{'Content-Type':'application/x-www-form-urlencoded'},
+            headers:{
+                'Content-Type':'application/x-www-form-urlencoded',
+                'X-Requested-With': 'XMLHttpRequest'
+            },
             body:`order_id=${orderId}&status=Canceled&reason=${encodeURIComponent(reason)}`
         });
         const data = await res.json();
@@ -266,10 +269,10 @@ async function cancelOrder(orderId){
             alert("Order canceled successfully! Reason: " + reason);
             location.reload();
         } else {
-            alert("Error canceling order!");
+            alert("Error canceling order: " + (data.message || "Unknown error"));
         }
     } catch(err){
-        alert("Error canceling order!");
+        alert("Error canceling order: " + err.message);
     }
 }
 
