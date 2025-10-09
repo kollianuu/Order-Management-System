@@ -95,7 +95,7 @@ mail($to, $subject, $message, $headers);
 
 Example:
 
-<img width="569" height="143" alt="image" src="https://github.com/user-attachments/assets/5cd5dfbf-bc9c-4ea3-9635-b906c28293b0" />
+<img width="656" height="404" alt="image" src="https://github.com/user-attachments/assets/7b257d84-5e19-4373-8728-9b121d364761" />
 
 5. Running the Project
 
