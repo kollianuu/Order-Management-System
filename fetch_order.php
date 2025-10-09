@@ -2,6 +2,8 @@
 include 'db_connect.php';
 header('Content-Type: application/json');
 
+$response = ['success' => false, 'order' => null];
+
 if (!isset($_GET['order_id'])) {
     echo json_encode(['success'=>false,'message'=>'Order ID missing']);
     exit;
